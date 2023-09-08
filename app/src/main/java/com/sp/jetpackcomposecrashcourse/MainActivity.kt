@@ -44,7 +44,7 @@ fun Greeting(name: String) {
     Text(text = "Hello $name!",
         modifier = Modifier
             .clickable ( onClick={ } )
-            .width(300.dp)
+            .width(200.dp)
             .height(200.dp)
             .padding(15.dp),
         style = MaterialTheme.typography.h5,
